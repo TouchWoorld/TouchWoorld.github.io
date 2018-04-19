@@ -15,9 +15,12 @@ left:50%;
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>worldmap</title>
 </head>
-<body>цена от:<input type="range" step="500" min="0" max="100000" list="rangeList" onchange="document.getElementById('rangeValue').innerHTML = this.value;"> <datalist id="rangeList"> <option value="0" label="0"> <option value="50000" label="50000"> <option value="100000" label="100000"> </datalist> <span id="rangeValue">50000</span>
-<br>
-<body>цена до:<input type="range" step="500" min="0" max="100000" list="rangeList" onchange="document.getElementById('rangeValue').innerHTML = this.value;"> <datalist id="rangeList"> <option value="0" label="0"> <option value="50000" label="50000"> <option value="100000" label="100000"> </datalist> <span id="rangeValue">50000</span>                        
+<body><span id="ex18-label-1" class="hidden">Цена от:</span>
+<input id="ex18a" type="text"/>
+
+<span id="ex18-label-2a" class="hidden"></span>
+<span id="ex18-label-2b" class="hidden">Цена до:</span>
+<input id="ex18b" type="text"/>
 <br>
 Кол-во дней.
 <input type="text" placeholder="дни"/>
